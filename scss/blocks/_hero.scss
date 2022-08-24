@@ -56,6 +56,10 @@
 		border: 1px solid #02897a;
 		color: #02897a;
 	}
+
+	&:active {
+		opacity: 0.6;
+	}
 }
 
 .hero__link--active {
