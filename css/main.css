@@ -578,6 +578,54 @@ main {
     display: block;
   }
 }
+.pricing-hero {
+  text-align: center;
+  padding: 50px 0 150px 0;
+}
+
+.pricing-hero__info {
+  margin-bottom: 49px;
+}
+
+.pricing-hero__span {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343d;
+}
+
+.pricing-hero__title {
+  margin: 0 0 16px 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #22343d;
+}
+
+.pricing-hero__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #22343d;
+}
+
+@media only screen and (max-width: 565px) {
+  .pricing-hero__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0 0 16px 0;
+  }
+  .pricing-hero__text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+}
 .site-footer {
   padding: 46px 0;
 }
