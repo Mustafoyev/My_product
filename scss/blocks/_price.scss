@@ -147,6 +147,13 @@
 	color: #ffffff;
 }
 
+.dark {
+	.price__title,
+	.price__text {
+		color: #ffffff;
+	}
+}
+
 @include max-width(1105px) {
 	.price__list {
 		flex-direction: column;

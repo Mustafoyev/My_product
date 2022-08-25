@@ -88,6 +88,13 @@
 	color: #252b42;
 }
 
+.dark {
+	.clients__title,
+	.clients__text {
+		color: #ffffff;
+	}
+}
+
 @include max-width(920px) {
 	.clients__item + .clients__item {
 		margin-left: 20px;

@@ -390,6 +390,10 @@ main {
   flex-grow: 1;
 }
 
+.dark {
+  background-color: #1f2e35;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -536,6 +540,13 @@ main {
   bottom: 0;
 }
 
+.dark .logo {
+  color: #fff;
+}
+.dark .navbar__link {
+  color: #fff;
+}
+
 @media only screen and (max-width: 860px) {
   .site-header {
     background-color: #ffffff;
@@ -666,6 +677,13 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
+}
+
+.dark .hero__title {
+  color: #ffffff;
+}
+.dark .hero__text {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -799,6 +817,15 @@ main {
 }
 .build__link:active {
   opacity: 0.6;
+}
+
+.dark .build {
+  background-image: url("../images/build-bg-dark.png");
+}
+.dark .build__title,
+.dark .build__item-title,
+.dark .build__item-text {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 720px) {
@@ -969,6 +996,16 @@ main {
   content: "";
 }
 
+.dark .services__item-title,
+.dark .services__item-text,
+.dark .services__item-spano,
+.dark .services__item-spant,
+.dark .services__item-spanth,
+.dark .services__item-str,
+.dark .services__item-stro {
+  color: #fff;
+}
+
 @media only screen and (max-width: 976px) {
   .services {
     padding: 90px 0;
@@ -1095,6 +1132,14 @@ main {
   border: 1px solid transparent;
   background: #02897a;
   border-radius: 4px;
+}
+
+.dark .quick {
+  background-image: url("../images/quick-bg-dark.png");
+}
+.dark .quick__title,
+.dark .quick__text {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 988px) {
@@ -1226,6 +1271,11 @@ main {
 
 .contents__page--acyive {
   background-color: #02897a;
+}
+
+.dark .contents__title,
+.dark .contents__text {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 950px) {
@@ -1409,6 +1459,11 @@ main {
   color: #ffffff;
 }
 
+.dark .price__title,
+.dark .price__text {
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 1105px) {
   .price__list {
     flex-direction: column;
@@ -1511,6 +1566,11 @@ main {
   line-height: 171%;
   letter-spacing: 0.2px;
   color: #252b42;
+}
+
+.dark .clients__title,
+.dark .clients__text {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 920px) {
@@ -1731,6 +1791,13 @@ main {
   line-height: 188%;
   text-align: center;
   color: #22343d;
+}
+
+.dark .site-footer__left-link,
+.dark .site-footer__right-link,
+.dark .site-footer__title,
+.dark .site-footer__text {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 768px) {

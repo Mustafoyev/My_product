@@ -84,6 +84,13 @@
 	background-color: #02897a;
 }
 
+.dark {
+	.contents__title,
+	.contents__text {
+		color: #ffffff;
+	}
+}
+
 @include max-width(950px) {
 	.contents {
 		padding: 100px 0 20px 0;

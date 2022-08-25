@@ -145,6 +145,18 @@
 	}
 }
 
+.dark {
+	.services__item-title,
+	.services__item-text,
+	.services__item-spano,
+	.services__item-spant,
+	.services__item-spanth,
+	.services__item-str,
+	.services__item-stro {
+		color: #fff;
+	}
+}
+
 @include max-width(976px) {
 	.services {
 		padding: 90px 0;

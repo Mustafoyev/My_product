@@ -137,6 +137,15 @@
 	color: #22343d;
 }
 
+.dark {
+	.site-footer__left-link,
+	.site-footer__right-link,
+	.site-footer__title,
+	.site-footer__text {
+		color: #ffffff;
+	}
+}
+
 @include max-width(768px) {
 	.site-footer__inner {
 		flex-direction: column;

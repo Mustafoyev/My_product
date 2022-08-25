@@ -108,6 +108,18 @@
 	}
 }
 
+.dark {
+	.build {
+		background-image: url('../images/build-bg-dark.png');
+	}
+
+	.build__title,
+	.build__item-title,
+	.build__item-text {
+		color: #ffffff;
+	}
+}
+
 @include max-width(720px) {
 	.build {
 		background-image: url('../images/buil-bg-mobile.png');

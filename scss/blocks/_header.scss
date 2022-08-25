@@ -133,6 +133,16 @@
 	}
 }
 
+.dark {
+	.logo {
+		color: #fff;
+	}
+
+	.navbar__link {
+		color: #fff;
+	}
+}
+
 @include max-width(860px) {
 	.site-header {
 		background-color: #ffffff;

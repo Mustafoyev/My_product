@@ -88,6 +88,16 @@
 	}
 }
 
+.dark {
+	.hero__title {
+		color: #ffffff;
+	}
+
+	.hero__text {
+		color: #ffffff;
+	}
+}
+
 @include max-width(1000px) {
 	.hero__inner {
 		flex-direction: column-reverse;
