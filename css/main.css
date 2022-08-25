@@ -1419,6 +1419,122 @@ main {
     margin-top: 32px;
   }
 }
+.clients {
+  padding-bottom: 150px;
+}
+
+.clients__title-text {
+  width: 100%;
+  max-width: 537px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.clients__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 168%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #22343d;
+}
+
+.clients__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+
+.clients__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.clients__item {
+  width: 100%;
+  max-width: 327px;
+  padding: 28px 26px 24px 26px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.clients__item + .clients__item {
+  margin-left: 64px;
+}
+
+.clients__item-icons {
+  margin-bottom: 16px;
+}
+
+.clients__item-text {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.clients__item-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.clients__item-img {
+  margin-right: 14px;
+}
+
+.clients__item-title {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+
+.clients__item-textt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+@media only screen and (max-width: 920px) {
+  .clients__item + .clients__item {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .clients__title-text {
+    width: 100%;
+    max-width: 437px;
+  }
+  .clients__title {
+    font-size: 28px;
+  }
+  .clients__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .clients__item + .clients__item {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
 .site-footer {
   padding: 46px 0;
 }
