@@ -548,6 +548,12 @@ main {
 }
 
 @media only screen and (max-width: 860px) {
+  .dark .site-header {
+    background-color: #1f2e35;
+  }
+  .dark .site-header__burger-line {
+    background-color: #ffffff;
+  }
   .site-header {
     background-color: #ffffff;
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
@@ -1297,9 +1303,10 @@ main {
   }
   .contents__item + .contents__item {
     margin-left: 0;
+    margin-bottom: 20px;
   }
   .contents__item-content {
-    padding: 24px 0 40px 0;
+    padding: 24px 0 40px 10px;
   }
   .contents__item-title {
     font-size: 24px;

@@ -115,10 +115,11 @@
 
 	.contents__item + .contents__item {
 		margin-left: 0;
+		margin-bottom: 20px;
 	}
 
 	.contents__item-content {
-		padding: 24px 0 40px 0;
+		padding: 24px 0 40px 10px;
 	}
 
 	.contents__item-title {
