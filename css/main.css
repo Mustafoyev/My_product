@@ -2618,4 +2618,122 @@ main {
 .dark .rescontact__title,
 .dark .rescontact__text {
   color: #ffffff;
+}
+
+.resmes {
+  padding-bottom: 150px;
+}
+
+.resmes__inner {
+  width: 100%;
+  max-width: 868px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+}
+
+.resmes__title {
+  margin: 0;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 138%;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252b42;
+}
+
+.resmes__input {
+  display: block;
+  width: 100%;
+  max-width: 768px;
+  margin-bottom: 45px;
+  padding: 19px 10px 19px 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+}
+.resmes__input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.1px;
+  color: #22343d;
+}
+.resmes__input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.1px;
+  color: #22343d;
+}
+.resmes__input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.1px;
+  color: #22343d;
+}
+
+.resmes__textarea {
+  display: block;
+  width: 100%;
+  max-width: 768px;
+  margin-bottom: 45px;
+  padding: 23px 10px 154px 20px;
+  resize: none;
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+}
+.resmes__textarea::-moz-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.1px;
+  color: #22343d;
+}
+.resmes__textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.1px;
+  color: #22343d;
+}
+.resmes__textarea::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.1px;
+  color: #22343d;
+}
+
+.resmes__btn {
+  display: block;
+  width: 100%;
+  max-width: 145px;
+  padding: 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background-color: #02897a;
+  border-radius: 35px;
+  border: 0;
+}
+
+.dark .resmes__inner {
+  background-color: #22343d;
+}
+.dark .resmes__title {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 460px) {
+  .resmes__inner {
+    padding: 10px;
+    border: 0;
+    border-radius: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
