@@ -28,7 +28,7 @@
 
 .contents__item {
 	width: 100%;
-	max-width: 384px;
+	max-width: 348px;
 	background-color: #ffffff;
 	border-radius: 8px;
 	border: 1px solid #dedede;
@@ -40,6 +40,11 @@
 
 .contents__item-content {
 	padding: 24px 30px 40px 24px;
+}
+
+.contents__item-img {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 
 .contents__item-weak {
