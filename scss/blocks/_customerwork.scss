@@ -1,0 +1,133 @@
+.customer-work__inner {
+    padding: 101px 0 115px 0;
+}
+
+.customer-work__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    text-align: center;
+    color: #22343D;
+    margin-bottom: 73px;
+}
+
+.customer-work__list {
+    width: 100%;
+    max-width: 1026px;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.customer-work__item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.customer-work__item:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+.customer-work__item:nth-child(3) {
+    margin: 0;
+    margin-bottom: 77px;
+}
+
+.customer-work__item__content {
+    width: 100%;
+    max-width: 438px;
+    text-align: start;
+}
+
+.customer-work__item__step {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #22343D;
+    text-align: start;
+    margin-bottom: 16px;
+
+}
+
+.customer-work__item__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #22343D;
+}
+
+.customer-work__item__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343D;
+}
+
+.custom-work__link {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 224px;
+    padding: 11px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 122%;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    background: #02897A;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.custom-work__link:hover{
+    background: #fff;
+    color: #02897A;
+    border: 1px solid #02897A;
+}
+
+@include max-width(860px){
+    .customer-work__inner{
+        padding: 96px 0 70px 0;
+    }
+    .customer-work__title{
+        font-size: 32px;
+        margin-bottom: 79px;
+    }
+    .customer-work__list{
+        width: 100%;
+        max-width: 355px;
+        flex-direction: column;
+    }
+    .customer-work__item{
+        flex-direction: column;
+        flex-direction: column;
+    }
+    .customer-work__item:nth-child(even){
+        flex-direction: column;
+    }
+    .custom-work__item__img{
+        width: 349px;
+        height: 195px;
+        margin-bottom: 80px;
+    }
+}

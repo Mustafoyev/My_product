@@ -1,0 +1,57 @@
+.customer-clients__inner {
+    width: 100%;
+    max-width: 850px;
+    padding: 100px 0 117px 0;
+    margin: 0 auto;
+}
+
+.customer-clients__title {
+    margin: 0;
+    margin-bottom: 66px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #22343D;
+}
+.customer-clients__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+@include max-width(860px) {
+    .customer-clients__inner {
+        width: 100%;
+        max-width: 350px;
+        padding: 50px 0 17px 0;
+        margin: 0 auto;
+    }
+    
+    .customer-clients__title {
+        margin: 0;
+        margin-bottom: 36px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #22343D;
+    }
+
+    .customer-clients__logo{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    
+    } 
+    .customer-clients__link{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .microsoft{
+        width: 164px;
+        height: 34px;
+    }
+}

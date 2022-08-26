@@ -1,6 +1,27 @@
+
 @import "visually-hidden";
 @import "container";
 @import "header";
 @import "pricing-hero";
 @import "pricing-enterprise";
 @import "footer";
+
+@import 'visually-hidden';
+@import 'container';
+@import 'header';
+@import 'hero';
+@import 'build';
+@import 'services';
+@import 'quick';
+@import 'contents';
+@import 'price';
+@import 'clients';
+@import 'join';
+@import 'footer';
+
+// customer page styles
+
+@import 'customerclients';
+@import 'customerchoose';
+@import 'customerwork';
+@import 'customerjoin';
