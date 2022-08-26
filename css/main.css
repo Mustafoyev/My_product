@@ -2423,4 +2423,68 @@ main {
   .reshero__btn {
     right: 5px;
   }
+}
+.rescontact {
+  padding-bottom: 60px;
+}
+
+.rescontact__title-text {
+  width: 100%;
+  max-width: 312px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+
+.rescontact__title {
+  margin: 0;
+  margin-bottom: 27px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 168%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.rescontact__text {
+  margin: 0;
+  margin-bottom: 65px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+}
+
+.rescontact__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rescontact__link {
+  display: block;
+  text-decoration: none;
+}
+.rescontact__link:hover {
+  opacity: 0.6;
+}
+.rescontact__link:active {
+  opacity: 0.4;
+}
+
+.rescontact__link + .rescontact__link {
+  margin-left: 21px;
+}
+
+.rescontact__iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.dark .rescontact__title,
+.dark .rescontact__text {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
