@@ -104,7 +104,11 @@
     color: #02897A;
     border: 1px solid #02897A;
 }
-
+.dark{
+    .customer-work__title , .customer-work__item__title , .customer-work__item__text , .customer-work__item__step{
+        color: #fff;
+    }
+}
 @include max-width(860px){
     .customer-work__inner{
         padding: 96px 0 70px 0;

@@ -1868,6 +1868,10 @@ main {
   justify-content: space-between;
 }
 
+.dark .customer-clients__title, .dark .customer-choose__item__text, .dark .customer-choose__title, .dark .customer-choose__item__title {
+  color: #fff;
+}
+
 @media only screen and (max-width: 860px) {
   .customer-clients__inner {
     width: 100%;
@@ -1899,10 +1903,6 @@ main {
     height: 34px;
   }
 }
-.customer-choose {
-  background-color: #F5F5F5;
-}
-
 .customer-choose__inner {
   padding: 24px 0 68px 0;
   margin: 0 auto;
@@ -2098,6 +2098,10 @@ main {
   border: 1px solid #02897A;
 }
 
+.dark .customer-work__title, .dark .customer-work__item__title, .dark .customer-work__item__text, .dark .customer-work__item__step {
+  color: #fff;
+}
+
 @media only screen and (max-width: 860px) {
   .customer-work__inner {
     padding: 96px 0 70px 0;
@@ -2126,7 +2130,6 @@ main {
 }
 .customer-join {
   padding-bottom: 150px;
-  background-image: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
 }
 
 .customer-join__inner {
@@ -2213,6 +2216,10 @@ main {
   line-height: 175%;
   color: #000000;
   text-decoration: none;
+}
+
+.dark .customer-join__title, .dark .customer-join__item__text, .dark .customer-join__item__title, .dark .customer-join__item__text, .dark .custom-join__item__link {
+  color: #fff;
 }
 
 @media only screen and (max-width: 860px) {

@@ -1,6 +1,4 @@
-.customer-choose {
-    background-color: #F5F5F5;
-}
+
 
 .customer-choose__inner {
     padding: 24px 0 68px 0;
@@ -77,6 +75,8 @@
     color: #22343D;
     margin: 0;
 }
+
+
 
 @include max-width(860px){
     
