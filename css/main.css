@@ -870,6 +870,12 @@ main {
   margin: 0;
 }
 
+@media only screen and (max-width: 565px) {
+  .pricing-ques__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
 .pricing-enterprise {
   padding: 50px 0;
   background-image: url("../images/bg-white.png");
