@@ -823,6 +823,53 @@ main {
     margin-bottom: 0;
   }
 }
+.pricing-ques {
+  margin-bottom: 150px;
+}
+
+.pricing-ques__title {
+  text-align: center;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.pricing-ques__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D;
+  margin: 0 0 50px 0;
+}
+
+.pricing-ques__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing-ques__item {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.pricing-ques__item img {
+  margin-right: 16px;
+}
+
+.prcing-ques__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D;
+  margin: 0;
+}
+
 .pricing-enterprise {
   padding: 50px 0;
   background-image: url("../images/bg-white.png");
