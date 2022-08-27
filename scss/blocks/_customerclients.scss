@@ -20,6 +20,11 @@
     justify-content: space-between;
 
 }
+
+.dark {
+    .customer-clients__title , .customer-choose__item__text , .customer-choose__title , .customer-choose__item__title {
+        color: #fff;
+    }}
 @include max-width(860px) {
     .customer-clients__inner {
         width: 100%;
