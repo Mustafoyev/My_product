@@ -1,0 +1,151 @@
+.pricing-enterprise {
+  padding: 50px 0;
+  background-image: url("../images/bg-white.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing-enterprise__info {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.pricing-enterprise__span {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343d;
+}
+
+.pricing-enterprise__title {
+  margin: 0 0 6px 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+
+.pricing-enterprise__text {
+  font-weight: 400;
+  margin: 0 0 32px 0;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343d;
+}
+
+.pricing-enterprise__btn {
+  padding: 11px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #02897a;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:hover {
+    color: #02897a;
+    background-color: #fff;
+  }
+}
+
+.pricing-enterprise__use__box {
+  display: flex;
+  justify-content: space-between;
+
+  &::before {
+    display: block;
+    width: 528px;
+    height: 392px;
+    margin-right: 60px;
+    background-image: url("../../images/amico.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    content: "";
+  }
+}
+
+.pricing-enterprise__use__title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+  margin: 0 0 56px 0;
+}
+
+.pricing-enterprise__use__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-enterprise__use__item {
+  max-width: 533px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.pricing-enterpise__titles {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #22343d;
+  margin: 0 0 16px 0;
+
+  &::before {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+    background-repeat: no-repeat;
+    background-image: url("../../images/Feature.svg");
+    content: "";
+  }
+}
+
+.pricing-enterprise__use__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #22343d;
+  margin: 0;
+}
+
+@media only screen and (max-width: 565px) {
+  .pricing-enterprise__info {
+    margin-bottom: 146px;
+  }
+  .pricing-enterprise__span {
+    margin-bottom: 24px;
+    display: block;
+  }
+  .pricing-enterprise__use__title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .pricing-enterprise__use__box {
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+      margin-right: 0;
+      width: 332px;
+      height: 268px;
+      margin-bottom: 31px;
+      background-size: 332px 268px;
+    }
+  }
+}
