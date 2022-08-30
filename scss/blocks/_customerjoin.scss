@@ -1,10 +1,6 @@
 .customer-join {
 	padding-bottom: 150px;
-	background-image: linear-gradient(
-		180deg,
-		#f5f5f5 0%,
-		rgba(245, 245, 245, 0) 100%
-	);
+	
 }
 
 .customer-join__inner {
@@ -89,6 +85,11 @@
 	line-height: 175%;
 	color: #000000;
 	text-decoration: none;
+}
+.dark{
+	.customer-join__title , .customer-join__item__text , .customer-join__item__title , .customer-join__item__text , .custom-join__item__link{
+		color: #fff;
+	}
 }
 
 @include max-width(860px) {
